@@ -1,0 +1,68 @@
+﻿body{background: #000000;}
+.walker{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.fadeInLong {
+  -webkit-animation: fadeIn 3s ease 0s 1 both;
+  -ms-animation: fadeIn 3s ease 0s 1 both;
+  -moz-animation: fadeIn 3s ease 0s 1 both;
+  -o-animation: fadeIn 3s ease 0s 1 both;
+          animation: fadeIn 3s ease 0s 1 both;
+          background:url(../images/Layermask.jpg) no-repeat center center / cover;
+}
+.fadeOutLong {
+  -webkit-animation: fadeOut 3s ease 0s 1 both;
+  -ms-animation: fadeOut 3s ease 0s 1 both;
+  -moz-animation: fadeOut 3s ease 0s 1 both;
+  -o-animation: fadeOut 3s ease 0s 1 both;
+          animation: fadeOut 3s ease 0s 1 both;
+          background:url(../images/shanghai.jpg) no-repeat center center / cover;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
