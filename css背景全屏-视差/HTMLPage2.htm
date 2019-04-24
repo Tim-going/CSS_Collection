@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        *{margin:0px; padding:0px;}
+        a{height:500px; display:block;}
+        .box{
+			position:relative;
+			height:600px; /* 此为元素背景图像实际高度 X 元素背景图像个数 */
+			width:1000px;
+			margin:0 auto;
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-attachment:fixed; /* 使背景图像相对于窗体固定 */
+			background-size:cover; /* 取值auto | cover | contain */
+			/* 背景图像的真实大小 */
+			/* 将背景图像等比缩放到完全覆盖容器，背景图像有可能超出容器 */
+			/* 将背景图像等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内 */
+			overflow:hidden;
+			text-align:center;
+		}
+		.box-1{background-image:url(1.jpg);}
+		.box-2{background-image:url(2.jpg);}
+		.box-3{background-image:url(3.jpg);}
+		.box-4{background-image:url(4.jpg);}
+		.box-5{background-image:url(5.jpg);}
+		.box-6{background-image:url(1.jpg);}
+    </style>
+</head>
+<body>
+<a class="box box-1" id="a1">a1</a>
+<a class="box box-2" id="a2">a2</a>
+<a class="box box-3" id="a3">a3</a>
+<a class="box box-4" id="a4">a4</a>
+<a class="box box-5" id="a5">a5</a>
+<a class="box box-6" id="a6">a6</a>
+</body>
+</html>
+
